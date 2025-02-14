@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: pink;
 
 }
 
@@ -27,12 +27,13 @@ body {
 
 .container .tenor-gif-embed {
     max-width: 300px;
-
+  
 }
 
 .text {
     display: flex;
     gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
@@ -43,4 +44,14 @@ body {
     padding: 10px 50px;
     border-radius: 15px;
     box-shadow: 3px 5px 10px black;
+}
+
+.text .yes a {
+    background-color: green;
+}
+
+.text .no a {
+    background-color: red;
+    
+
 }
